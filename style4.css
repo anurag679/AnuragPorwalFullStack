@@ -1,0 +1,122 @@
+:root{
+    --accent: #6c5ce7;
+    --bg: #f1c40f;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+}
+
+.card-holder{
+  display: inline;
+  align-items: center;
+  gap: rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+.card{
+    margin-top: px;
+    margin: 20px;
+    padding: 0px;
+    gap: 20px;
+    width: 30%;
+
+    display: inline-block;
+    background-color: rgb(189, 181, 181);
+    border-radius: 10px;
+    cursor:pointer;
+   
+}
+.card:hover{
+    box-shadow: 5px 5px 10px black;
+
+}
+
+
+.card__name{
+  font-size: 1.6em;
+}
+
+.card__img{
+    width: 100%;
+    height: 314px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.card-contents{
+  padding: 1rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+  letter-spacing: px;
+}
+
+p{
+  
+  margin-bottom: 10px;
+  padding: px;
+            text-align: center;
+            font-size: 14px;
+            
+             font-style: unset;
+  
+}
+
+.card__read-more{
+  display: block;
+  opacity: 0;
+  height: 0;
+  transition: all 0.5s;
+  
+}
+
+.card__read-more--open{
+  display: block;
+  opacity: 1;
+  height: 5rem;
+   
+}
+
+.read-more-btn{
+ 
+    display: inline-table;
+
+    background-color: #eee;
+    padding: 5px;
+    font-size: 15px;
+    position: relative;
+    
+    
+    
+    cursor: pointer;
+    border-radius:5px;
+    border: 5px;
+    border-color: black;
+    
+}
+.read-more-btn:hover{
+    background-color: black;
+    color:gold;
+  cursor: pointer;
+}
+
+.read-more-btn:hover{
+  background-color: #070303;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+  border-color: black;
+  border-radius: 5px;
+} 
